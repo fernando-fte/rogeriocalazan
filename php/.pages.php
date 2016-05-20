@@ -48,7 +48,9 @@
 				'@title' => 'Bem vindo',
 			),
 			'@include' => array(
-				$settings['dir']['app'].'/home.html'
+				$settings['dir']['app'].'/home.banner.html',
+				$settings['dir']['app'].'/home.videos.html',
+				$settings['dir']['app'].'/rodape.html'
 			)
 		)
 	)
