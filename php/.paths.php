@@ -1,7 +1,7 @@
 <?php 
 	# # # # # # # # # / CONFIGURA PATH DE TODOS OS ELEMENTOS / # # # # # # # # #
 	# # # Configura localhost
-	$settings['wwwproj'] = '/rogeriocalazan'; // pasta atual do projeto
+	$settings['wwwproj'] = '/rogeriocalazans'; // pasta atual do projeto
 	$settings['wwwroot'] = 'http://'.$_SERVER['SERVER_NAME'].$settings['wwwproj']; // Configura seleção do servidor mais pasta local
 
 
@@ -26,6 +26,12 @@
 	# Diretorios de paginas
 	$settings['dir']['contents'] = $settings['wwwroot'].'/contents'; // Local base de todos os dados
 	$settings['dir']['app'] = $settings['dir']['contents'].'/app'; // Conjunto de  formuláros
+
+	# biblioteca de arquivos
+	$settings['dir']['library'] = $settings['wwwroot'].'/library'; // Local base de todos os dados
+	# # Vídeos
+	$settings['dir']['lb-videos'] = $settings['dir']['library'].'/videos'; // Local base de todos os dados
+
 
 	# # # Configura path arquivos e framework
 	$settings['file'] = array(

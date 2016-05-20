@@ -1,0 +1,35 @@
+
+	<div class="container">
+
+		<div class="row">
+
+			<?php for ($i=0; $i < 3; $i++) { // Inicia loop ?>
+			<div class="col-md-3">
+
+				<div class="thumbnail">
+					<a href="<?php echo $GLOBALS['settings']['wwwroot']; ?>/produto/">
+						<img src="http://placehold.it/800x1024/0D0D0D/ffffff?text=Vídeo" alt="...">
+					</a>
+					<div class="caption clearfix">
+						<!-- <p class="label label-primary">Palestra</p> -->
+						<!-- <h3 class="text-warning">Título do curso com o maximo de caracteres</h3> -->
+
+						<div class="btn-group pull-left">
+							<a href="<?php echo $GLOBALS['settings']['wwwroot']; ?>/produto/" class="btn btn-success">Comprar</a>
+
+							<span class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<span class="fa fa-ellipsis-v"></span>
+							</span>
+
+							<ul class="dropdown-menu">
+								<li><a href="#">Adicionar no carrinho</a></li>
+							</ul>
+						</div>
+
+						<h4 href="#" class="pull-right text-success">Por <b><small>R$</small>100,00</b></h4>
+					</div>
+				</div>
+			</div>
+			<?php } // Fim de loop ?>
+		</div>
+	</div>

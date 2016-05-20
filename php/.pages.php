@@ -49,8 +49,22 @@
 			),
 			'@include' => array(
 				$settings['dir']['app'].'/home.banner.html',
-				$settings['dir']['app'].'/home.videos.html',
-				$settings['dir']['app'].'/rodape.html'
+				$settings['dir']['app'].'/home.produtos.html',
+				$settings['dir']['app'].'/rodape.html',
+				$settings['dir']['app'].'/modal.pagamento.html'
+			)
+		),
+
+		'produto' => array(
+
+			'@head' => array(
+				'@title' => 'Bem vindo',
+			),
+
+			'@include' => array(
+				$settings['dir']['app'].'/produto.html',
+				$settings['dir']['app'].'/rodape.html',
+				$settings['dir']['app'].'/modal.pagamento.html'
 			)
 		)
 	)

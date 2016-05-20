@@ -35,10 +35,10 @@
 		}
 
 		# #inicia loop para seelecionar o path relativo
-		for ($i=0; $i < count($me); $i++) { 
+		for ($i_=0; $i_ < count($me); $i_++) { 
 
-			// print $me[$i]."\n";
-			if ($me[$i] != '') {
+			// print $me[$i_]."\n";
+			if ($me[$i_] != '') {
 
 				$result['done'] .= '../';
 			}
@@ -264,10 +264,10 @@
 					$result['process']['no_default']['success'] = true;
 
 					# # # # Seleciona todos os itens
-					for ($i=0; $i < count($me['@no_default']); $i++) { 
+					for ($i_=0; $i_ < count($me['@no_default']); $i_++) { 
 						
 						# # # # # Trata cada instancia
-						switch ($me['@no_default'][$i]) {
+						switch ($me['@no_default'][$i_]) {
 
 							case '@head': unset($reserve['@default']['@head']); break;
 							case '@head->title': unset($reserve['@default']['@head']['@title']); break;
@@ -283,9 +283,9 @@
 						}
 
 						# # # # Acrecenta um alerta
-						$result['process']['no_default']['warning'][] = 'Foi resetado o default "'.$me['@no_default'][$i].'" da página "'.$page[0].'"';
+						$result['process']['no_default']['warning'][] = 'Foi resetado o default "'.$me['@no_default'][$i_].'" da página "'.$page[0].'"';
 					}
-					unset($i);
+					unset($i_);
 				}
 			}
 			# # / TRATA REMOVE DEFAULT / # #
@@ -351,21 +351,21 @@
 				$temp['list'] = array('@head', '@body_end', '@include');
 
 				# # # Inicia loop para selecionar cada tipo de item
-				for ($i=0; $i < count($temp['list']); $i++) { 
+				for ($i_=0; $i_ < count($temp['list']); $i_++) { 
 
 					# # # # Valida se existe as condições na pagina
-					if (array_key_exists($temp['list'][$i], $reserve['@pages'])) {
+					if (array_key_exists($temp['list'][$i_], $reserve['@pages'])) {
 
 						# # # # # Adiciona o elemento em default se nao existe
-						if (!array_key_exists($temp['list'][$i], $reserve['@default'])) {
-							$reserve['@default'][$temp['list'][$i]] = array();
+						if (!array_key_exists($temp['list'][$i_], $reserve['@default'])) {
+							$reserve['@default'][$temp['list'][$i_]] = array();
 						}
 
 						# # # # # Subistitui o reserve->default pelos parametros da pagina
-						$reserve['@default'][$temp['list'][$i]] = ($temp['list'][$i] == '@include' ? array_merge_recursive($reserve['@default'][$temp['list'][$i]], $reserve['@pages'][$temp['list'][$i]]) : array_replace_recursive($reserve['@default'][$temp['list'][$i]], $reserve['@pages'][$temp['list'][$i]]));
+						$reserve['@default'][$temp['list'][$i_]] = ($temp['list'][$i_] == '@include' ? array_merge_recursive($reserve['@default'][$temp['list'][$i_]], $reserve['@pages'][$temp['list'][$i_]]) : array_replace_recursive($reserve['@default'][$temp['list'][$i_]], $reserve['@pages'][$temp['list'][$i_]]));
 					}
 				}
-				unset($temp, $i); // Paga os valores utilizados
+				unset($temp, $i_); // Paga os valores utilizados
 			}
 			# # # # # # / DEFINE O INICIO DO TRATAMENTO DOS ELEMENTOS PARA ESSA PAGINA / # # # # # #
 		}
@@ -412,13 +412,13 @@
 							if ($key == '@config') {
 
 								# # # # # # Seleciona cada item dentro de config
-								for ($i=0; $i < count($val); $i++) { 
+								for ($i_=0; $i_ < count($val); $i_++) { 
 
 									# # # # # # Separa temp->meta para reservar o conjunto de atributos
 									$temp['meta'] = '';
 
 									# # # # # # Explode cada item na posição atual
-									foreach ($val[$i] as $key2 => $val2) {
+									foreach ($val[$i_] as $key2 => $val2) {
 										$temp['meta'] .= '"'.$key2.'"="'.$val2.'" ';
 									}
 
@@ -428,7 +428,7 @@
 									unset($key2, $val2);
 								}
 
-								unset($i,$temp['meta']);
+								unset($i_,$temp['meta']);
 							}
 
 							# # # # # valida se as meta são de indexação
@@ -520,17 +520,17 @@
 					if (count($me) > 0) {
 
 						# # # Navega em cada valor a ser incluido
-						for ($i=0; $i < count($me); $i++) { 
+						for ($i_=0; $i_ < count($me); $i_++) { 
 
 							# # # inclui cada item da biblioteca
-							$temp = include path_relative($me[$i])['done'];
+							$temp = include path_relative($me[$i_])['done'];
 
 							# # # caso nao tenha sido incluido tenta novamente
 							if ($temp == false) {
-								include str_replace('..', '.', path_relative($me[$i])['done']);
+								include str_replace('..', '.', path_relative($me[$i_])['done']);
 							}
 
-							$result['process']['include']['log'][$i] = path_relative($me[$i])['done'];
+							$result['process']['include']['log'][$i_] = path_relative($me[$i_])['done'];
 						}
 						unset($temp);
 						$result['success'] = true;
@@ -593,14 +593,14 @@
 			# # # # \ Apaga todos os valores nulos \ # # # #
 			$me = $reserve['map'];
 			$reserve['map'] = array();
-			for ($i=0; $i < count($me); $i++) { 
+			for ($i_=0; $i_ < count($me); $i_++) { 
 
 				# # # Seleciona apenas o valor valido
-				if ($me[$i] != '') {
-					array_push($reserve['map'], $me[$i]);
+				if ($me[$i_] != '') {
+					array_push($reserve['map'], $me[$i_]);
 				}
 			}
-			unset($i, $me);
+			unset($i_, $me);
 			# # # # \ Apaga todos os valores nulos \ # # # #
 		}
 		# caso seja uma suv função
@@ -614,28 +614,28 @@
 			$me = $reserve['map'];
 
 			# # Seleciona o primeiro item da posição valido
-			$i = $reserve['position'];
+			$i_ = $reserve['position'];
 
 			# # # Guarda valor da proxima posição
-			$reserve['position'] = ($i + 1);
+			$reserve['position'] = ($i_ + 1);
 
 			# # # Valida se existe a pagina
-			if (array_key_exists($me[$i], $reserve['nav'])) {
+			if (array_key_exists($me[$i_], $reserve['nav'])) {
 
 				# # # # Valida se existe mais argumentos
-				if (count($me) > ($i + 1) ) {
+				if (count($me) > ($i_ + 1) ) {
 
 					# # # # # re envia os dados para as sub funções
-					$reserve = parse_navgation(array('map' => $me, 'position' => $reserve['position'], 'nav' => $reserve['nav'][$me[$i]]))['done'];
+					$reserve = parse_navgation(array('map' => $me, 'position' => $reserve['position'], 'nav' => $reserve['nav'][$me[$i_]]))['done'];
 				}
 
 				# # # # Valida se é o ultimo argumento
-				if (count($me) == ($i + 1) ) {
+				if (count($me) == ($i_ + 1) ) {
 					$reserve['position']++;
 				}
 			}
 
-			unset($i, $me);
+			unset($i_, $me);
 
 
 			# # # Retorna dados caso a função seja sub-função
@@ -658,20 +658,20 @@
 				$result['done'] = array('path' => array(), 'query' => array());
 
 				# # Trata cada item
-				for ($i=0; $i < count($me); $i++) { 
+				for ($i_=0; $i_ < count($me); $i_++) { 
 
 					# # # Caso seja um caminho de pastas
-					if ($i < $reserve['position']) {
-						array_push($result['done']['path'], $me[$i]);
+					if ($i_ < $reserve['position']) {
+						array_push($result['done']['path'], $me[$i_]);
 					}
 
 					# # # Caso seja um comanda GET
-					if ($i >= $reserve['position']) {
-						array_push($result['done']['query'], $me[$i]);
+					if ($i_ >= $reserve['position']) {
+						array_push($result['done']['query'], $me[$i_]);
 
 					}
 				}
-				unset($me, $i);
+				unset($me, $i_);
 
 				# # Valida se existe algum parametro e retorna falso caso nao tenha
 				$result['done']['path'] = (count($result['done']['path']) == 0 ? false : $result['done']['path']);
@@ -688,9 +688,9 @@
 						# valida se é do tipo group
 						if (array_key_exists('@group', $me)) {
 
-							for ($i=0; $i < count(array_keys($me['@group'])); $i++) { 
-								$k = array_keys($me['@group'])[$i];
-								$v = array_values($me['@group'])[$i];
+							for ($i_=0; $i_ < count(array_keys($me['@group'])); $i_++) { 
+								$k = array_keys($me['@group'])[$i_];
+								$v = array_values($me['@group'])[$i_];
 
 								# # MOnsta chaves
 								$temp[$result['done']['query'][$k]] = $result['done']['query'][$v];
@@ -698,59 +698,59 @@
 								# # remove chaves
 								unset($result['done']['query'][$k], $result['done']['query'][$v]);
 							}
-							unset($i, $k, $v);
+							unset($i_, $k, $v);
 
 						}
 
 						if (array_key_exists('@double', $me)) {
-							for ($i=0; $i < count($result['done']['query']); $i++) { 
+							for ($i_=0; $i_ < count($result['done']['query']); $i_++) { 
 								# reserva double
-								$temp[$result['done']['query'][$i]] = $result['done']['query'][($i + 1)];
+								$temp[$result['done']['query'][$i_]] = $result['done']['query'][($i_ + 1)];
 
 								# # remove chaves
 								unset($result['done']['query'][$k], $result['done']['query'][$v]);
 
 								# adiona de dois em dois
-								$i = $i + 2;
+								$i_ = $i_ + 2;
 							}
-							unset($i);
+							unset($i_);
 						}
 
 						if (array_key_exists('@next', $me)) {
 
 							# Inverte cada instancia
-							$b = array_flip($result['done']['query']);
-							for ($i=0; $i < count($me['@next']); $i++) { 
+							$b_ = array_flip($result['done']['query']);
+							for ($i_=0; $i_ < count($me['@next']); $i_++) { 
 
 								# reserva valor especifico
-								$temp[$me['@next'][$i]] = $result['done']['query'][($b[$me['@next'][$i]] + 1)];
+								$temp[$me['@next'][$i_]] = $result['done']['query'][($b_[$me['@next'][$i_]] + 1)];
 
-								unset($result['done']['query'][($b[$me['@next'][$i]] + 1)], $result['done']['query'][$b[$me['@next'][$i]]]);
+								unset($result['done']['query'][($b_[$me['@next'][$i_]] + 1)], $result['done']['query'][$b_[$me['@next'][$i_]]]);
 							}
-							unset($a, $b, $i);
+							unset($a_, $b_, $i_);
 						}
 
 
 						# # # Finaliza montagem
 						$result['done']['query'] = array_values($result['done']['query']);
-						for ($i=0; $i < count($result['done']['query']); $i++) { 
+						for ($i_=0; $i_ < count($result['done']['query']); $i_++) { 
 							
-							$temp[$result['done']['query'][$i]] = '';
+							$temp[$result['done']['query'][$i_]] = '';
 						}
 	
 						$result['done']['query'] = $temp;
-						unset($i, $temp);
+						unset($i_, $temp);
 						# # # //
 					}
 
 					# # # Inverte todos os valores
 					else {
 						$result['done']['query'] = array_values($result['done']['query']);
-						for ($i=0; $i < count($result['done']['query']); $i++) { 							
-							$temp[$result['done']['query'][$i]] = '';
+						for ($i_=0; $i_ < count($result['done']['query']); $i_++) { 							
+							$temp[$result['done']['query'][$i_]] = '';
 						}
 						$result['done']['query'] = $temp;
-						unset($i, $temp);
+						unset($i_, $temp);
 					}
 				}
 			}
