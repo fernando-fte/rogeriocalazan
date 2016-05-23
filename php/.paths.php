@@ -26,6 +26,10 @@
 	# Diretorios de paginas
 	$settings['dir']['contents'] = $settings['wwwroot'].'/contents'; // Local base de todos os dados
 	$settings['dir']['app'] = $settings['dir']['contents'].'/app'; // Conjunto de  formuláros
+	$settings['dir']['app-header'] = $settings['dir']['app'].'/headers'; // Paginas principais
+	$settings['dir']['app-block'] = $settings['dir']['app'].'/blocks'; // Blocos de paginas
+	$settings['dir']['app-basic'] = $settings['dir']['app'].'/basic'; // Elementos comuns
+	$settings['dir']['app-user'] = $settings['dir']['app'].'/user'; // Elementos de usuarios
 
 	# biblioteca de arquivos
 	$settings['dir']['library'] = $settings['wwwroot'].'/library'; // Local base de todos os dados

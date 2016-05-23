@@ -16,7 +16,7 @@
 				<div class="collapse navbar-collapse" id="menu-1">
 
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="carrinho/">Meu carrinho <span class="fa fa-shopping-cart" aria-hidden="true"></span></a></li>
+						<li><a href="<?php echo $GLOBALS['settings']['wwwroot']; ?>/carrinho/">Meu carrinho <span class="fa fa-shopping-cart" aria-hidden="true"></span></a></li>
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle"
 							data-toggle="dropdown"
@@ -24,17 +24,14 @@
 							aria-haspopup="true"
 							aria-expanded="false">Nome do Usuario<span class="caret"></span></a>
 							<ul class="dropdown-menu">
-								<li><a href="#">Meus vídeos</a></li>
-								<li><a href="#">Minhas compras</a></li>
-								<li role="separator" class="divider"></li>
-								<li><a href="#">Editar perfil</a></li>
-								<li><a href="#">Sair <span class="fa fa-sign-out"></span></a></li>
+								<li><a href="<?php echo $GLOBALS['settings']['wwwroot']; ?>/account/">Conta</a></li>
+								<li><a href="<?php echo $GLOBALS['settings']['wwwroot']; ?>/account/sign-out/$ID">Sair <span class="fa fa-sign-out"></span></a></li>
 							</ul>
 						</li>
 					</ul>
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="sobre/">Sobre</a></li>
-						<li><a href="contato/">Contato</a></li>
+						<li><a href="<?php echo $GLOBALS['settings']['wwwroot']; ?>/sobre/">Sobre</a></li>
+						<li><a href="<?php echo $GLOBALS['settings']['wwwroot']; ?>/contato/">Contato</a></li>
 					</ul>
 				</div>
 			</div>
@@ -58,7 +55,7 @@
 					<ul class="nav navbar-nav">
 						<li class="active"><a href="<?php echo $GLOBALS['settings']['wwwroot']; ?>">Home <span class="sr-only">(current)</span></a></li>
 						<li><a href="<?php echo $GLOBALS['settings']['wwwroot']; ?>/promocao/">Promoções</a></li>
-						<li><a href="<?php echo $GLOBALS['settings']['wwwroot']; ?>/totos/">Todos</a></li>
+						<li><a href="<?php echo $GLOBALS['settings']['wwwroot']; ?>/todos/">Todos</a></li>
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" 
 								data-toggle="dropdown" 
@@ -66,8 +63,8 @@
 								aria-haspopup="true" 
 								aria-expanded="false">Categorias <span class="caret"></span></a>
 							<ul class="dropdown-menu">
-								<li><a href="categoria/palestras">Palestras</a></li>
-								<li><a href="categoria/mini-cursos">Mini-Cursos</a></li>
+								<li><a href="<?php echo $GLOBALS['settings']['wwwroot']; ?>/categoria/palestras">Palestras</a></li>
+								<li><a href="<?php echo $GLOBALS['settings']['wwwroot']; ?>/categoria/mini-cursos">Mini-Cursos</a></li>
 							</ul>
 						</li>
 					</ul>

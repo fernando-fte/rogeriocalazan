@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"o",
+				"option	Tag"
+			],
+			[
+				"to",
+				"todos"
+			],
+			[
+				"h",
+				"href	Attr"
+			],
+			[
+				"php",
+				"php"
+			],
+			[
 				"arra_mer",
 				"array_merge_recursive"
 			],
@@ -184,10 +200,6 @@
 				"temp"
 			],
 			[
-				"to",
-				"top"
-			],
-			[
 				"prin",
 				"print_r"
 			],
@@ -202,10 +214,6 @@
 			[
 				"sc",
 				"scrollTop"
-			],
-			[
-				"o",
-				"offset"
 			],
 			[
 				"over",
@@ -436,10 +444,6 @@
 				"padding"
 			],
 			[
-				"php",
-				"phpinfo"
-			],
-			[
 				"ove",
 				"overflow"
 			],
@@ -510,29 +514,11 @@
 			[
 				"i",
 				"italic"
-			],
-			[
-				"app-cor-r",
-				"app-cor-preto-60"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -591,10 +577,56 @@
 	},
 	"expanded_folders":
 	[
-		"/D/projeto/web/rogeriocalazans"
+		"/D/projeto/web/rogeriocalazans",
+		"/D/projeto/web/rogeriocalazans/contents",
+		"/D/projeto/web/rogeriocalazans/contents/app",
+		"/D/projeto/web/rogeriocalazans/contents/app/basic",
+		"/D/projeto/web/rogeriocalazans/contents/app/blocks",
+		"/D/projeto/web/rogeriocalazans/contents/app/headers",
+		"/D/projeto/web/rogeriocalazans/contents/app/user"
 	],
 	"file_history":
 	[
+		"/D/projeto/web/rogeriocalazans/contents/app/blocks/div.close.html",
+		"/D/projeto/web/rogeriocalazans/contents/app/blocks/div.open.html",
+		"/D/projeto/web/rogeriocalazans/php/.pages.php",
+		"/D/projeto/web/rogeriocalazans/contents/app/user/menu.html",
+		"/D/projeto/web/rogeriocalazans/contents/app/user/visao-geral.html",
+		"/D/projeto/web/rogeriocalazans/contents/app/headers/user.html",
+		"/D/projeto/web/rogeriocalazans/php/.paths.php",
+		"/D/projeto/web/rogeriocalazans/contents/app/basic/menu.html",
+		"/D/projeto/web/rogeriocalazans/contents/app/user/compras.html",
+		"/D/projeto/web/rogeriocalazans/contents/app/blocks/modal.pagamento.html",
+		"/D/projeto/web/rogeriocalazans/contents/app/blocks/banner.html",
+		"/D/projeto/web/rogeriocalazans/contents/app/blocks/carrinho.produtos.html",
+		"/D/projeto/web/rogeriocalazans/contents/app/headers/carrinho.html",
+		"/D/projeto/web/rogeriocalazans/contents/app/headers/categoria.html",
+		"/D/projeto/web/rogeriocalazans/contents/app/headers/sobre.html",
+		"/D/projeto/web/rogeriocalazans/contents/app/headers/contato.html",
+		"/D/projeto/web/rogeriocalazans/contents/app/blocks/contato.html",
+		"/D/projeto/web/rogeriocalazans/contents/app/headers/contato",
+		"/D/projeto/web/rogeriocalazans/contents/app/menu.html",
+		"/D/projeto/web/rogeriocalazans/contents/app/page.todos.mini-cursos.html",
+		"/D/projeto/web/rogeriocalazans/contents/app/page.todos.html",
+		"/D/projeto/web/rogeriocalazans/contents/app/page.promocao.html",
+		"/D/projeto/web/rogeriocalazans/contents/app/page.produto.html",
+		"/D/projeto/web/rogeriocalazans/contents/app/produto.item.html",
+		"/D/projeto/web/rogeriocalazans/contents/app/produto.list.html",
+		"/D/projeto/web/rogeriocalazans/contents/app/produto.descricao.html",
+		"/D/projeto/web/rogeriocalazans/contents/app/page.home.html",
+		"/D/projeto/web/rogeriocalazans/contents/app/rodape.html",
+		"/D/projeto/web/rogeriocalazans/contents/app/produto.relacionado.html",
+		"/D/projeto/web/rogeriocalazans/contents/app/modal.pagamento.html",
+		"/D/projeto/web/rogeriocalazans/contents/app/banner.html",
+		"/D/projeto/web/rogeriocalazans/contents/app/home.produtos.html",
+		"/C/Users/Usuário/Desktop/info.txt",
+		"/C/Users/Usuário/AppData/Local/Temp/fz3temp-1/.htaccess",
+		"/D/projeto/web/rogeriocalazans/style/app.less",
+		"/D/projeto/web/rogeriocalazans/contents/app/produto.html",
+		"/D/projeto/web/rogeriocalazans/php/.functions.php",
+		"/D/projeto/web/rogeriocalazans/contents/app/home.banner.html",
+		"/D/projeto/web/rogeriocalazans/php/.config.php",
+		"/D/projeto/web/rogeriocalazans/.htaccess",
 		"/D/projeto/web/livrodigital/php/.pages.php",
 		"/D/projeto/web/livrodigital/index.php",
 		"/D/projeto/web/livrodigital/php/teste/trata-navegacao/index.php",
@@ -606,7 +638,6 @@
 		"/D/projeto/web/livrodigital/php/teste/index.php",
 		"/D/projeto/web/livrodigital/contents/home/abertura.html",
 		"/D/projeto/web/livrodigital/.htaccess",
-		"/C/Users/Usuário/AppData/Local/Temp/fz3temp-1/.htaccess",
 		"/D/projeto/web/livrodigital/php/.config.pages.php",
 		"/D/projeto/web/livrodigital/aplicativos/vgconsultoria/index.html",
 		"/C/Users/Usuário/AppData/Local/Temp/fz3temp-1/index 2.html",
@@ -636,7 +667,6 @@
 		"/C/Users/Usuário/AppData/Local/Temp/fz3temp-2/index.html",
 		"/D/projeto/web/livrodigital/php/pages.php",
 		"/D/projeto/web/livrodigital/teste/teste_xml.php",
-		"/C/Users/Usuário/Desktop/info.txt",
 		"/D/Google Drive/Fernando/.VG Consultoria/Projetos/Nova Logo/Materiais/Mokup/A4 Magazine Mockup - Free/Premium Version.txt",
 		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Direito Comercial/direito-comercial.html",
 		"/D/projeto/web/livrodigital/sub-1/sub-2/sub-3/index.php",
@@ -684,49 +714,11 @@
 		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/.Done/teste.html",
 		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Bioestatística/done/app/bioestatistica-unidade-i[professor].html",
 		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Bioestatística/done/app/bioetica-unidade-i[professor].html",
-		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Projeto/Materiais/Estudo/LaTex/teste 1/teste_matematica_marcacao.html",
-		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Bioestatística/processamento/Bioestatística - undiade i[marcacao].html",
-		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Gerenciamento de Resíduos Sólidos e Recursos Hídricos/done/app/gerenciamento-de-residuos-solidos-e-recursos-hidricos.html",
-		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Gerenciamento de Resíduos Sólidos e Recursos Hídricos/Processamento/book.video.list.html",
-		"/D/projeto/web/vg/livroDigital/temp/modelo/book.video.list.html",
-		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Transtorno de Aprendizagem/processamento/Transtorno de Aprendizagem - vídeos.txt",
-		"/D/Google Drive/.Usuarios/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Gerenciamento de Resíduos Sólidos e Recursos Hídricos/gerenciamento-de-residuos-solidos-e-recursos-hidricos.html",
-		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Gerenciamento de Resíduos Sólidos e Recursos Hídricos/Processamento/Gerenciamento de Resíduos Sólidos e Recursos Hídricos [marcacao].html",
-		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Projeto/Materiais/Estudo/LaTex/matematica_teste_1.html",
-		"/C/Arquivos de Programas RFB/IRPF2016/tutorial/tutorial.html",
-		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 3/Metodologia de Pesquisa Científica/done/app/metodologia-de-pesquisa-cientifica-unidade-ii.html",
-		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 3/Metodologia de Pesquisa Científica/metodologia-de-pesquisa-cientifica.html",
-		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Transtorno de Aprendizagem/done/app/transtornos-de-aprendizagem-[tratamento].html",
-		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Transtorno de Aprendizagem/done/app/transtornos-de-aprendizagem.html",
-		"/D/projeto/web/vg/livroDigital/_src/Processamento/Lote 3/Bioética/done/app/bioetica-unidade-iii.html",
-		"/D/projeto/web/vg/livroDigital/_src/Processamento/Lote 3/Bioética/bioetica.html",
-		"/D/projeto/web/vg/livroDigital/_src/Processamento/Lote 3/Bioética/done/app/bioetica-unidade-ii.html",
-		"/D/projeto/web/vg/livroDigital/_src/Processamento/Lote 3/Educação e Novas Tecnologias para o Ensino/educacao-e-novas-tecnologias-para-o-ensino.html",
-		"/D/projeto/web/vg/livroDigital/_src/Processamento/Lote 3/Educação e Novas Tecnologias para o Ensino/processamento/figuras/figura.4.1.svg",
-		"/D/projeto/web/vg/livroDigital/_src/Processamento/Lote 3/Educação e Novas Tecnologias para o Ensino/processamento/figuras/INLINE_figura.4.1.svg",
-		"/D/projeto/web/vg/livroDigital/_src/Processamento/Lote 3/Educação e Novas Tecnologias para o Ensino/done/app/educacao-e-novas-tecnologias-para-o-ensino-unidade-iv.html",
-		"/C/Users/Usuário/Desktop/iv.html",
-		"/C/Users/Usuário/Desktop/educacao-e-novas-tecnologias-para-o-ensino-unidade-iv.html",
-		"/D/projeto/web/vg/livroDigital/_src/Processamento/.Done/educacao-e-novas-tecnologias-para-o-ensino-unidade-iv.html",
-		"/C/Users/Usuário/Desktop/figura.4.1.svg",
-		"/D/projeto/web/vg/livroDigital/_src/Processamento/Lote 3/Educação e Novas Tecnologias para o Ensino/links/figura.4.1.svg",
-		"/D/projeto/web/vg/livroDigital/_src/Processamento/Lote 3/Educação e Novas Tecnologias para o Ensino/processamento/figuras/grafico.4.1.svg",
-		"/D/projeto/web/vg/livroDigital/_src/Processamento/Lote 3/Educação e Novas Tecnologias para o Ensino/processamento/figuras/grafico.4.1-01.svg",
-		"/C/Users/Usuário/Desktop/Untitled-1.svg",
-		"/D/projeto/web/vg/livroDigital/_src/Processamento/Lote 3/Marketing/done/app/marketing-unidade-iv.html",
-		"/D/projeto/web/vg/livroDigital/_src/Processamento/Lote 3/Marketing/done/app/marketing-unidade-iii.html",
-		"/D/projeto/web/vg/livroDigital/_src/Processamento/Lote 3/Marketing/done/app/marketing-unidade-ii.html",
-		"/D/projeto/web/vg/livroDigital/_src/Processamento/Lote 3/Marketing/done/app/marketing-unidade-i.html",
-		"/D/projeto/web/vg/livroDigital/_src/Processamento/Lote 3/Marketing/marketing.html",
-		"/D/projeto/web/vg/livroDigital/_src/Processamento/Lote 3/Bioética/done/app/bioetica-unidade-iv.html",
-		"/D/projeto/web/vg/livroDigital/_src/Processamento/Lote 3/Bioética/done/app/bioetica-unidade-i.html",
-		"/D/projeto/web/vg/livroDigital/_src/Processamento/Lote 3/Educação e Novas Tecnologias para o Ensino/done/app/educacao-e-novas-tecnologias-para-o-ensino-unidade-iii.html",
-		"/D/projeto/web/vg/livroDigital/_src/Processamento/Lote 3/Educação e Novas Tecnologias para o Ensino/done/app/educacao-e-novas-tecnologias-para-o-ensino-unidade-ii.html",
-		"/D/projeto/web/vg/livroDigital/_src/Processamento/Lote 3/Educação e Novas Tecnologias para o Ensino/done/app/educacao-e-novas-tecnologias-para-o-ensino-unidade-i.html"
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Projeto/Materiais/Estudo/LaTex/teste 1/teste_matematica_marcacao.html"
 	],
 	"find":
 	{
-		"height": 21.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -767,6 +759,68 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"h4",
+			"\n				",
+			".docx",
+			"user",
+			"usser",
+			"btn-default",
+			"À",
+			"x",
+			"col-md-4",
+			"  ",
+			"<div class=\"row\">",
+			" btn-lg",
+			"tr",
+			"th",
+			"head",
+			"form-control input-md",
+			"										 ",
+			"  ",
+			".'",
+			"$settings['dir']['app'].'/basic/",
+			"$settings['dir']['app'].'/blocks/",
+			"$settings['dir']['app'].'/headers/",
+			"contents",
+			"blocks/menu.html",
+			"modal.pagamento.html",
+			"page.",
+			"/blocks/rodape.html",
+			"block.",
+			"banner.",
+			"rodape.html",
+			"produto.list",
+			"produto.item",
+			"produto.",
+			"800x10240D0D0D",
+			"myModalLabel",
+			"  ",
+			"\n                ",
+			"</span>",
+			"video-content",
+			"text-info",
+			"</span></span>",
+			"</span> ",
+			"fa",
+			"label",
+			"href=\"#\" class=\"list-group-item\"",
+			"b",
+			"1",
+			"$u",
+			"$b",
+			"$a",
+			"$i",
+			"i",
+			"1024x400",
+			"p",
+			" btn-xs",
+			"btn  ",
+			"btn-",
+			"btn",
+			"p",
+			"class",
+			"type=\"button\" ",
+			"button",
 			"'teste->trata-navegacao'",
 			"path",
 			"echo",
@@ -832,69 +886,7 @@
 			"livros",
 			"app-vg",
 			".flv",
-			"flv",
-			"mp4",
-			"Cursos - ",
-			"0B0saOBoxeYS_TjdyemRPbGlscTA",
-			"Pois bem, nisso que esboça uma espécie d",
-			"Momentos históricos",
-			"scripts/",
-			"scripts",
-			"<?php echo path_relative($GLOBALS['settings']['dir']['app-vg'])['done'];?>",
-			".app-graphic-content.app-graphic-video .app-graphic-content-nav",
-			"49ddffaecd57f9abec865d06e8b798cb",
-			"app-graphic-content ",
-			"app-graphic-content",
-			"<article",
-			"app-box-content",
-			"app-box-",
-			"Para Campos (2014), perseguir o significado da noção de técnica e estabe",
-			"img/",
-			"library/6e1ba5deb1d776b987d720ce335c3318/",
-			"<table",
-			"<TABLE",
-			"img/",
-			"library/6e1ba5deb1d776b987d720ce335c3318/",
-			"data-book-graphic-item>",
-			"Pois bem, nisso que esboça uma espécie de micro-história da tecnologia, interessam-nos ",
-			"Em contrapartida, a Idade Média (dos meados do século XII até o século XIV) int",
-			"tb-titulo-td",
-			"<table",
-			"<span data-book-unidade-autor=\"2\">Thiago Garcia Martins</span>",
-			".cover-btn-nav",
-			"@app-cor-vermelho",
-			": ",
-			" ",
-			"padrao",
-			"fraco",
-			"não escolares no interior das práticas de ensino e aprendizagem.",
-			"@app-cor-padrao",
-			": ",
-			"box-leitura",
-			"info",
-			"cover-btn-iniciar app-ico-iniciar col-lg-2 col-md-3 col-sm-4 col-ss-4 col-lg-offset-5 col-md-offset-4 col-sm-offset-3 col-ss-offset-3",
-			"{\"togo\":{\"to\":\"sumario\",\"cover\":false}}",
-			"Iniciar leitura",
-			".app-ati-alternativa-item",
-			"atividade",
-			"blockquote",
-			"<span  data-app-ctrl='{\"togo\":",
-			" data-app-ctrl='{\"display\":{\"put\":\".app-sum-section-item\",",
-			"Jefferson Gustavo dos Santos Campos",
-			"img/",
-			":",
-			"lighten",
-			"cover",
-			": ",
-			"#",
-			"less/",
-			"app/",
-			"\\n",
-			"<p id=\"[\\S*]*\"",
-			"$path_relative()",
-			"library/",
-			"css",
-			"\"cover-btn-tooltip\""
+			"flv"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -902,6 +894,9 @@
 		"regex": false,
 		"replace_history":
 		[
+			"$b_",
+			"$a_",
+			"$i_",
 			"construct_page_required",
 			"$page[0].",
 			"<p",
@@ -1026,10 +1021,7 @@
 			"\\t<p data-book-section-label=\"Nome do livro\">",
 			"\\t<p data-book-section-label=\"Ano\">",
 			"\\t<p data-book-section-label=\"Elenco Principal\">",
-			"\\t<p data-book-section-label=\"Diretor\">",
-			"\\t<p data-book-section-label=\"Gênero\">",
-			"\\t<p data-book-section-label=\"Nome do filme\">",
-			"<p data-book-section-label=\"Nome do filme\">"
+			"\\t<p data-book-section-label=\"Diretor\">"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -1040,63 +1032,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1136,7 +1073,7 @@
 		"height": 0.0
 	},
 	"pinned_build_system": "",
-	"project": "rogeriocalazan[gv].sublime-project",
+	"project": "rogeriocalazan[vg].sublime-project",
 	"replace":
 	{
 		"height": 38.0
@@ -1154,6 +1091,42 @@
 			],
 			[
 				".pa",
+				"php\\.pages.php"
+			],
+			[
+				"path",
+				"php\\.paths.php"
+			],
+			[
+				".pat",
+				"php\\.paths.php"
+			],
+			[
+				"menu",
+				"contents\\app\\basic\\menu.html"
+			],
+			[
+				".paths",
+				"php\\.paths.php"
+			],
+			[
+				".",
+				"php\\.paths.php"
+			],
+			[
+				"pa",
+				"php\\.pages.php"
+			],
+			[
+				"pages",
+				"php\\.pages.php"
+			],
+			[
+				".p",
+				"php\\.pages.php"
+			],
+			[
+				".pg",
 				"php\\.pages.php"
 			],
 			[
@@ -1257,10 +1230,6 @@
 				"sources\\capa.src"
 			],
 			[
-				"pages",
-				"style\\less\\app\\pages.less"
-			],
-			[
 				"cap",
 				"sources\\capa.src"
 			],
@@ -1279,10 +1248,6 @@
 			[
 				"varia",
 				"style\\less\\bootstrap\\variables.less"
-			],
-			[
-				"pa",
-				"style\\less\\app\\pages.less"
 			],
 			[
 				"cover",
@@ -1387,10 +1352,6 @@
 			[
 				"apres",
 				"sources\\apresentacao.src"
-			],
-			[
-				"menu",
-				"sources\\menu-bar.src"
 			],
 			[
 				"app.",
@@ -1631,7 +1592,7 @@
 		[
 			[
 				"",
-				"D:\\projeto\\web\\vg\\livroDigital\\_src\\Sublime Text\\LivroDigital.processamento.sublime-project"
+				"D:\\projeto\\web\\rogeriocalazans\\_src\\sublime\\rogeriocalazan[vg].sublime-project"
 			]
 		],
 		"width": 380.0
