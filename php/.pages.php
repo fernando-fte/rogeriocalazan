@@ -132,11 +132,50 @@
 
 			'@include' => array(
 				$settings['dir']['app-header'].'/user.html',
-				$settings['dir']['app-block'].'/div.open.html',
 				$settings['dir']['app-user'].'/menu.html',
 				$settings['dir']['app-user'].'/visao-geral.html',
-				$settings['dir']['app-block'].'/div.close.html',
 				$settings['dir']['app-basic'].'/rodape.html',
+			),
+
+			'edt' => array(
+				'@no_default' => array('@include'),
+
+				'perfil' => array(
+					'@head' => array(
+						'@title' => 'Editar perfil',
+					),
+					'@include' => array(
+						$settings['dir']['app-basic'].'/menu.html',
+						$settings['dir']['app-header'].'/user.html',
+						$settings['dir']['app-user'].'/menu.html',
+						$settings['dir']['app-user'].'/edt-perfil.html',
+						$settings['dir']['app-basic'].'/rodape.html',
+					)
+				),
+
+				'senha' => array(
+					'@head' => array(
+						'@title' => 'Editar senha',
+					),
+					'@include' => array(
+						$settings['dir']['app-basic'].'/menu.html',
+						$settings['dir']['app-header'].'/user.html',
+						$settings['dir']['app-user'].'/menu.html',
+						$settings['dir']['app-user'].'/edt-senha.html',
+						$settings['dir']['app-basic'].'/rodape.html',
+					)
+				),
+			),
+
+			'cursos' => array(
+				'@no_default' => array('@include'),
+				'@include' => array(
+					$settings['dir']['app-basic'].'/menu.html',
+					$settings['dir']['app-header'].'/user.html',
+					$settings['dir']['app-user'].'/menu.html',
+					$settings['dir']['app-user'].'/compras.html',
+					$settings['dir']['app-basic'].'/rodape.html',
+				)
 			)
 		),
 
