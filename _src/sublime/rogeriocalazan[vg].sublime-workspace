@@ -578,15 +578,18 @@
 	"expanded_folders":
 	[
 		"/D/projeto/web/rogeriocalazans",
-		"/D/projeto/web/rogeriocalazans/contents",
-		"/D/projeto/web/rogeriocalazans/contents/app",
-		"/D/projeto/web/rogeriocalazans/contents/app/basic",
-		"/D/projeto/web/rogeriocalazans/contents/app/blocks",
-		"/D/projeto/web/rogeriocalazans/contents/app/headers",
-		"/D/projeto/web/rogeriocalazans/contents/app/user"
+		"/D/projeto/web/rogeriocalazans/php"
 	],
 	"file_history":
 	[
+		"/D/projeto/web/workflow/php/.config.php",
+		"/D/projeto/web/workflow/index.php",
+		"/C/Users/Usuário/AppData/Local/Temp/fz3temp-1/.htaccess 3",
+		"/C/Users/Usuário/AppData/Local/Temp/fz3temp-1/.htaccess 2",
+		"/C/Users/Usuário/AppData/Local/Temp/fz3temp-1/.paths 2.php",
+		"/C/Users/Usuário/AppData/Local/Temp/fz3temp-1/.paths.php",
+		"/C/Users/Usuário/AppData/Local/Temp/fz3temp-1/.config.php",
+		"/C/Users/Usuário/AppData/Local/Temp/fz3temp-1/.htaccess",
 		"/D/projeto/web/rogeriocalazans/contents/app/blocks/div.close.html",
 		"/D/projeto/web/rogeriocalazans/contents/app/blocks/div.open.html",
 		"/D/projeto/web/rogeriocalazans/php/.pages.php",
@@ -620,7 +623,6 @@
 		"/D/projeto/web/rogeriocalazans/contents/app/banner.html",
 		"/D/projeto/web/rogeriocalazans/contents/app/home.produtos.html",
 		"/C/Users/Usuário/Desktop/info.txt",
-		"/C/Users/Usuário/AppData/Local/Temp/fz3temp-1/.htaccess",
 		"/D/projeto/web/rogeriocalazans/style/app.less",
 		"/D/projeto/web/rogeriocalazans/contents/app/produto.html",
 		"/D/projeto/web/rogeriocalazans/php/.functions.php",
@@ -707,14 +709,7 @@
 		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Bioestatística/bioestatistica-undiade-iv.html",
 		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/.Done/bioestatistica-unidade-iv[professor].html",
 		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Bioestatística/processamento/_Bioestatística - unidade iv [marcacao].html",
-		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Bioestatística/processamento/Bioestatística - unidade iv [marcacao].html",
-		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Bioestatística/bioestatistica-undiade-ii.html",
-		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/.Done/bioestatistica-unidade-ii[professor].html",
-		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Bioestatística/done/app/bioestatistica-unidade-ii[professor].html",
-		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/.Done/teste.html",
-		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Bioestatística/done/app/bioestatistica-unidade-i[professor].html",
-		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Bioestatística/done/app/bioetica-unidade-i[professor].html",
-		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Projeto/Materiais/Estudo/LaTex/teste 1/teste_matematica_marcacao.html"
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Bioestatística/processamento/Bioestatística - unidade iv [marcacao].html"
 	],
 	"find":
 	{
@@ -759,6 +754,27 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"	",
+			"$page['Lote 3']['",
+			"\"",
+			"	",
+			" - Semana 5",
+			"out/16",
+			"01/08/2016",
+			"ago/16",
+			" Iv",
+			"iv",
+			"Iv",
+			"Iii",
+			"Ii",
+			" Dos ",
+			" E ",
+			"De",
+			"de",
+			"De",
+			"de",
+			"De",
+			"\\n",
 			"h4",
 			"\n				",
 			".docx",
@@ -865,35 +881,15 @@
 			"'style'",
 			"$page.",
 			"head",
-			"case 'head':",
-			"$temp",
-			"rezetado",
-			"$result['warning'][]",
-			">",
-			"head",
-			"@script",
-			"@meta",
-			"@style",
-			"Valida",
-			"['valida-page']",
-			"valida-page",
-			"processo",
-			"proccesso",
-			"process",
-			"trata page direct",
-			"css",
-			"$settings['dir']['form']",
-			"livros",
-			"app-vg",
-			".flv",
-			"flv"
+			"case 'head':"
 		],
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": false,
+		"regex": true,
 		"replace_history":
 		[
+			"'",
 			"$b_",
 			"$a_",
 			"$i_",
@@ -1020,8 +1016,7 @@
 			"\\t<p data-book-section-label=\"Autor\">",
 			"\\t<p data-book-section-label=\"Nome do livro\">",
 			"\\t<p data-book-section-label=\"Ano\">",
-			"\\t<p data-book-section-label=\"Elenco Principal\">",
-			"\\t<p data-book-section-label=\"Diretor\">"
+			"\\t<p data-book-section-label=\"Elenco Principal\">"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -1076,7 +1071,7 @@
 	"project": "rogeriocalazan[vg].sublime-project",
 	"replace":
 	{
-		"height": 38.0
+		"height": 62.0
 	},
 	"save_all_on_build": true,
 	"select_file":

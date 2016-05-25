@@ -56,7 +56,7 @@
 			)
 		),
 
-		'produto' => array(
+		'curso' => array(
 
 			'@head' => array(
 				'@title' => 'Produto',

@@ -1,5 +1,12 @@
 // * { border: 1px solid red; }
 
+// Trata logo do menu
+.navbar-brand {
+	padding: 5px;
+	img { height: 100%; }
+}
+
+
 // Trata banner
 .carousel-inner {
 
@@ -8,6 +15,67 @@
 		img { margin: 0 auto; }
 	}
 }
+
+
+// TRATA PREÇO
+.prince {
+	font-size: 20px;
+	text-align: right;
+
+	.modo {
+		font-size: 60%;
+	}
+
+	.valor {
+		font-size: 100%;
+		color: rgb(0, 128, 0);
+		white-space: nowrap;
+
+		.moeda {
+			font-size: 60%;
+		}
+
+		.centavos {
+			font-size: 80%;
+			display: inline-block;
+		}
+
+		.total {
+			font-size: 56%;
+			display: block;
+			font-weight: bold;
+			color: initial;
+		}
+	}
+
+	.parcelas {
+		font-size: 70%;
+		font-weight: bold;
+	}
+
+	.pagamento {
+		font-size: 50%;
+		display: block;
+	}
+
+	// Configura os elementos contents
+	.velho, .avista, .parcelado { display: block; &:before{content: " "}}
+
+	.velho {
+		font-size: 15px;
+		margin: 0px;
+		.valor { color: grey; }
+	}
+}
+
+// Trata preço no produto
+.produto-item {
+	.prince {
+		text-align: left;
+		font-size: 30px;
+	}
+}
+
 
 
 // Trata vídeo background
