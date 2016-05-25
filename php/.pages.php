@@ -24,6 +24,7 @@
 					// 'bootstrap-css' => 'css',
 					'fontawesome' => 'css',
 					'style-less'  => 'less'
+					// 'style-css'  => 'css'
 				),
 			),
 
