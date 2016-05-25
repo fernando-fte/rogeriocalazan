@@ -21,7 +21,7 @@
 				'@title' => 'Home',
 
 				'@style' => array(
-					'bootstrap-css' => 'css',
+					// 'bootstrap-css' => 'css',
 					'fontawesome' => 'css',
 					'style-less'  => 'less'
 				),

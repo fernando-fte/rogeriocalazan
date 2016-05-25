@@ -4,6 +4,46 @@
 		"selected_items":
 		[
 			[
+				"trans",
+				"transparent"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"c",
+				"ceil(number)"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
 				"o",
 				"option	Tag"
 			],
@@ -136,14 +176,6 @@
 				"app-cor-preto-0"
 			],
 			[
-				"font",
-				"font-weight"
-			],
-			[
-				"fon",
-				"font-weight"
-			],
-			[
 				"scrip",
 				"script"
 			],
@@ -194,10 +226,6 @@
 			[
 				"a",
 				"a	Tag"
-			],
-			[
-				"te",
-				"temp"
 			],
 			[
 				"prin",
@@ -344,16 +372,8 @@
 				"addClass"
 			],
 			[
-				"c",
-				"click"
-			],
-			[
 				"app-cor-pa",
 				"app-cor-padrao"
-			],
-			[
-				"mar",
-				"margin-top"
 			],
 			[
 				"min",
@@ -382,10 +402,6 @@
 			[
 				"tog",
 				"toggleClass"
-			],
-			[
-				"pa",
-				"padding-top"
 			],
 			[
 				"le",
@@ -498,27 +514,27 @@
 			[
 				"app-br",
 				"app-cover-btn-pdd"
-			],
-			[
-				"app-cover",
-				"app-cover-btn-font"
-			],
-			[
-				"baco",
-				"background-color"
-			],
-			[
-				"app-cor-preto",
-				"app-cor-preto-0"
-			],
-			[
-				"i",
-				"italic"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "/D/projeto/web/rogeriocalazans/style/app-btsp/thumbnails.less",
+			"settings":
+			{
+				"buffer_size": 753,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/D/projeto/web/rogeriocalazans/style/app-btsp/variables.less",
+			"settings":
+			{
+				"buffer_size": 28215,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -578,10 +594,34 @@
 	"expanded_folders":
 	[
 		"/D/projeto/web/rogeriocalazans",
-		"/D/projeto/web/rogeriocalazans/php"
+		"/D/projeto/web/rogeriocalazans/contents",
+		"/D/projeto/web/rogeriocalazans/contents/app",
+		"/D/projeto/web/rogeriocalazans/style",
+		"/D/projeto/web/rogeriocalazans/style/app-btsp",
+		"/D/projeto/web/rogeriocalazans/style/app-btsp/mixins"
 	],
 	"file_history":
 	[
+		"/D/projeto/web/rogeriocalazans/style/app-btsp/buttons.less",
+		"/D/projeto/web/rogeriocalazans/style/app-btsp/variables.less",
+		"/D/projeto/web/rogeriocalazans/style/app-btsp/mixins/buttons.less",
+		"/D/projeto/web/rogeriocalazans/style/app-btsp/forms.less",
+		"/D/projeto/web/rogeriocalazans/style/app.less",
+		"/D/projeto/web/rogeriocalazans/contents/app/blocks/produto.list.html",
+		"/D/projeto/web/rogeriocalazans/style/app-btsp/carousel.less",
+		"/D/projeto/web/rogeriocalazans/style/app-btsp/navbar.less",
+		"/D/projeto/web/rogeriocalazans/style/app-btsp/dropdowns.less",
+		"/D/Google Drive/Fernando/Projetos/Roda-pé do email/rodapé.html",
+		"/D/projeto/web/rogeriocalazans/style/app-btsp/mixins/nav-vertical-align.less",
+		"/D/projeto/web/rogeriocalazans/contents/app/blocks/produto.item.html",
+		"/D/projeto/web/rogeriocalazans/php/.pages.php",
+		"/D/projeto/web/rogeriocalazans/style/app-btsp/bootstrap.less",
+		"/D/projeto/web/rogeriocalazans/contents/app/basic/menu.html",
+		"/D/projeto/web/rogeriocalazans/contents/app/blocks/banner.html",
+		"/D/projeto/web/rogeriocalazans/contents/app/user/visao-geral.html",
+		"/D/Google Drive/.Projetos/Uniube/.Projeto/info.txt",
+		"/D/projeto/web/rogeriocalazans/contents/app/headers/produto.html",
+		"/D/projeto/web/rogeriocalazans/contents/app/blocks/carrinho.produtos.html",
 		"/D/projeto/web/workflow/php/.config.php",
 		"/D/projeto/web/workflow/index.php",
 		"/C/Users/Usuário/AppData/Local/Temp/fz3temp-1/.htaccess 3",
@@ -592,16 +632,11 @@
 		"/C/Users/Usuário/AppData/Local/Temp/fz3temp-1/.htaccess",
 		"/D/projeto/web/rogeriocalazans/contents/app/blocks/div.close.html",
 		"/D/projeto/web/rogeriocalazans/contents/app/blocks/div.open.html",
-		"/D/projeto/web/rogeriocalazans/php/.pages.php",
 		"/D/projeto/web/rogeriocalazans/contents/app/user/menu.html",
-		"/D/projeto/web/rogeriocalazans/contents/app/user/visao-geral.html",
 		"/D/projeto/web/rogeriocalazans/contents/app/headers/user.html",
 		"/D/projeto/web/rogeriocalazans/php/.paths.php",
-		"/D/projeto/web/rogeriocalazans/contents/app/basic/menu.html",
 		"/D/projeto/web/rogeriocalazans/contents/app/user/compras.html",
 		"/D/projeto/web/rogeriocalazans/contents/app/blocks/modal.pagamento.html",
-		"/D/projeto/web/rogeriocalazans/contents/app/blocks/banner.html",
-		"/D/projeto/web/rogeriocalazans/contents/app/blocks/carrinho.produtos.html",
 		"/D/projeto/web/rogeriocalazans/contents/app/headers/carrinho.html",
 		"/D/projeto/web/rogeriocalazans/contents/app/headers/categoria.html",
 		"/D/projeto/web/rogeriocalazans/contents/app/headers/sobre.html",
@@ -623,7 +658,6 @@
 		"/D/projeto/web/rogeriocalazans/contents/app/banner.html",
 		"/D/projeto/web/rogeriocalazans/contents/app/home.produtos.html",
 		"/C/Users/Usuário/Desktop/info.txt",
-		"/D/projeto/web/rogeriocalazans/style/app.less",
 		"/D/projeto/web/rogeriocalazans/contents/app/produto.html",
 		"/D/projeto/web/rogeriocalazans/php/.functions.php",
 		"/D/projeto/web/rogeriocalazans/contents/app/home.banner.html",
@@ -695,21 +729,7 @@
 		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Transtorno de Aprendizagem/done/app/transtornos-de-aprendizagem-unidade-iv.html",
 		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Transtorno de Aprendizagem/done/app/transtornos-de-aprendizagem-unidade-iii.html",
 		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Transtorno de Aprendizagem/done/app/transtornos-de-aprendizagem-unidade-ii.html",
-		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Transtorno de Aprendizagem/done/app/transtornos-de-aprendizagem-unidade-i.html",
-		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Transtorno de Aprendizagem/Transtorno de Aprendizagem [marcacao].html",
-		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Gerenciamento de Resíduos Sólidos e Recursos Hídricos/done/app/gerenciamento-de-residuos-solidos-e-recursos-hidricos-unidade-iv.html",
-		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Gerenciamento de Resíduos Sólidos e Recursos Hídricos/done/app/gerenciamento-de-residuos-solidos-e-recursos-hidricos-unidade-iii.html",
-		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Gerenciamento de Resíduos Sólidos e Recursos Hídricos/done/app/gerenciamento-de-residuos-solidos-e-recursos-hidricos-unidade-ii.html",
-		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Gerenciamento de Resíduos Sólidos e Recursos Hídricos/done/app/gerenciamento-de-residuos-solidos-e-recursos-hidricos-unidade-i.html",
-		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Gerenciamento de Resíduos Sólidos e Recursos Hídricos/gerenciamento-de-residuos-solidos-e-recursos-hidricos.html",
-		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Gerenciamento de Resíduos Sólidos e Recursos Hídricos/Processamento/Gerenciamento de Resíduos Sólidos e Recursos Hídricos - vídeos.txt",
-		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Gerenciamento de Resíduos Sólidos e Recursos Hídricos/done/Gerenciamento de Resíduos Sólidos e Recursos Hídricos - Forum.docx",
-		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Bioestatística/bioestatistica-undiade-i.html",
-		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Bioestatística/done/app/bioestatistica-unidade-iv[professor].html",
-		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Bioestatística/bioestatistica-undiade-iv.html",
-		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/.Done/bioestatistica-unidade-iv[professor].html",
-		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Bioestatística/processamento/_Bioestatística - unidade iv [marcacao].html",
-		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Bioestatística/processamento/Bioestatística - unidade iv [marcacao].html"
+		"/D/Google Drive/Fernando/Produção Editorial/Livro Digital/Produção/Lote 4/Transtorno de Aprendizagem/done/app/transtornos-de-aprendizagem-unidade-i.html"
 	],
 	"find":
 	{
@@ -720,6 +740,9 @@
 		"height": 90.0,
 		"where_history":
 		[
+			"D:\\projeto\\web\\rogeriocalazans\\style\\app-btsp",
+			"D:\\projeto\\web\\rogeriocalazans\\contents\\app\\blocks",
+			"D:\\projeto\\web\\rogeriocalazans",
 			"D:\\projeto\\web\\livrodigital\\php\\teste",
 			"D:\\projeto\\web\\livrodigital\\aplicativos\\vgconsultoria\\style\\app",
 			"D:\\projeto\\web\\livrodigital\\aplicativos\\vgconsultoria\\style\\bootstrap",
@@ -754,6 +777,52 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"input-group-btn",
+			"@input-border",
+			"border-color",
+			"btn",
+			"text-transform",
+			"@border-radius-base",
+			" @border-radius-base",
+			"button-siz",
+			"carousel",
+			"navs",
+			".dropdown-menu",
+			"dropdown",
+			".dropdown",
+			"dropdown-menu",
+			"@carousel-indicator-border-color",
+			".left",
+			"background-image",
+			"back",
+			".carousel-control.left",
+			"carousel",
+			"@navbar-margin-bottom",
+			"navbar-default-link-active-bg",
+			": @navbar-default-link-active-bg",
+			".navbar-default",
+			"navbar-nav",
+			"navbar",
+			".navbar-form",
+			".navbar-vertical-align",
+			".form-inline",
+			".navbar-form",
+			".box-shadow",
+			"    margin-top:",
+			"    margin-bottom:",
+			"    margin-bottom: 8px;",
+			".navbar-form",
+			"@import \"",
+			"#",
+			"http://placehold.it/1024x400/0D0D0D/ffffff?text=Banner ",
+			"http://placehold.it/1024x400/0D0D0D/ffffff?text=Banner 1",
+			"b4d99f",
+			"pull-left",
+			"produto",
+			"produto/",
+			"video",
+			" pull-right",
+			"modeda",
 			"	",
 			"$page['Lote 3']['",
 			"\"",
@@ -835,53 +904,7 @@
 			"btn",
 			"p",
 			"class",
-			"type=\"button\" ",
-			"button",
-			"'teste->trata-navegacao'",
-			"path",
-			"echo",
-			" =>",
-			"= ",
-			"=  ",
-			",",
-			"] =",
-			"loop-paginas",
-			"$reserve['nav']",
-			"return",
-			"['position']",
-			"restart",
-			"temp",
-			"'nav'",
-			"nav",
-			"NAV",
-			"nav",
-			"$func",
-			"));\n",
-			"count",
-			"CONFIGURA PATH DE TODOS OS ELEMENTOS",
-			"0",
-			"$temp",
-			"trata-navegacao",
-			"trata-syntax-da-pagina",
-			"# # #",
-			"page_config",
-			"$GLOBALS['settings']",
-			", $func",
-			"$settings['pages']",
-			"$settings",
-			"  ",
-			"settings",
-			"$settings['pages']",
-			");\n",
-			"'@head'",
-			"@head",
-			"array_merge_recursive",
-			"'meta'",
-			"'script'",
-			"'style'",
-			"$page.",
-			"head",
-			"case 'head':"
+			"type=\"button\" "
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -889,6 +912,7 @@
 		"regex": true,
 		"replace_history":
 		[
+			"moeda",
 			"'",
 			"$b_",
 			"$a_",
@@ -1015,8 +1039,7 @@
 			"\\t<p data-book-section-label=\"Editora\">",
 			"\\t<p data-book-section-label=\"Autor\">",
 			"\\t<p data-book-section-label=\"Nome do livro\">",
-			"\\t<p data-book-section-label=\"Ano\">",
-			"\\t<p data-book-section-label=\"Elenco Principal\">"
+			"\\t<p data-book-section-label=\"Ano\">"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -1027,8 +1050,67 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/D/projeto/web/rogeriocalazans/style/app-btsp/thumbnails.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 753,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								177,
+								159
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/D/projeto/web/rogeriocalazans/style/app-btsp/variables.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 28215,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								25043,
+								25044
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": -0.0,
+						"translation.y": 9355.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -1081,8 +1163,32 @@
 		"selected_items":
 		[
 			[
+				"varia",
+				"style\\app-btsp\\variables.less"
+			],
+			[
+				"vari",
+				"style\\app-btsp\\variables.less"
+			],
+			[
+				"item",
+				"contents\\app\\blocks\\produto.item.html"
+			],
+			[
+				"less",
+				"style\\app.less"
+			],
+			[
 				".pages",
 				"php\\.pages.php"
+			],
+			[
+				"page",
+				"php\\.pages.php"
+			],
+			[
+				"blocks",
+				"contents\\app\\blocks\\produto.list.html"
 			],
 			[
 				".pa",
@@ -1233,16 +1339,8 @@
 				"style\\less\\app\\outros.less"
 			],
 			[
-				"page",
-				"style\\less\\app\\pages.less"
-			],
-			[
 				"anima",
 				"style\\less\\app\\animate.less"
-			],
-			[
-				"varia",
-				"style\\less\\bootstrap\\variables.less"
 			],
 			[
 				"cover",
@@ -1491,10 +1589,6 @@
 			[
 				"gri",
 				"style\\less\\bootstrap\\mixins\\grid-framework.less"
-			],
-			[
-				"vari",
-				"style\\less\\bootstrap\\variables.less"
 			],
 			[
 				"nav-ba",
